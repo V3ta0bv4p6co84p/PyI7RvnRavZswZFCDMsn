@@ -6,7 +6,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="GifmojiKeyboard" customModuleProvider="target">
             <connections>
-                <outlet property="nextKeyboard" destination="C6Q-9P-Ccv" id="Nxu-HL-Kow"/>
                 <outlet property="scrollView" destination="E7x-f7-eF3" id="VZq-fa-LHT"/>
             </connections>
         </placeholder>
@@ -16,27 +15,28 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7x-f7-eF3">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="164"/>
                 </scrollView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6Q-9P-Ccv">
-                    <rect key="frame" x="8" y="172" width="40" height="40"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="I46-nT-tum">
+                    <rect key="frame" x="0.0" y="163" width="320" height="57"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="5lR-bH-En7"/>
-                        <constraint firstAttribute="width" constant="40" id="EFZ-vh-4ZQ"/>
+                        <constraint firstAttribute="height" constant="57" id="tow-ll-Dbo"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                    <state key="normal" title="🌐">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jP6-qY-0NG">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="E7x-f7-eF3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0NU-T9-YjI"/>
-                <constraint firstItem="C6Q-9P-Ccv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Bbx-cV-9yn"/>
-                <constraint firstAttribute="centerY" secondItem="E7x-f7-eF3" secondAttribute="centerY" id="WZn-wK-ijs"/>
-                <constraint firstAttribute="bottom" secondItem="C6Q-9P-Ccv" secondAttribute="bottom" constant="8" id="euU-8c-EXg"/>
-                <constraint firstAttribute="bottom" secondItem="E7x-f7-eF3" secondAttribute="bottom" id="gFb-sV-ZeF"/>
+                <constraint firstAttribute="bottom" secondItem="E7x-f7-eF3" secondAttribute="bottom" constant="56" id="45K-YE-Iig"/>
+                <constraint firstItem="I46-nT-tum" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6ic-dZ-1Io"/>
+                <constraint firstAttribute="bottom" secondItem="I46-nT-tum" secondAttribute="bottom" id="Ww3-BT-ASW"/>
+                <constraint firstAttribute="trailing" secondItem="I46-nT-tum" secondAttribute="trailing" id="fkl-o3-O9i"/>
                 <constraint firstAttribute="centerX" secondItem="E7x-f7-eF3" secondAttribute="centerX" id="leW-VI-SeD"/>
                 <constraint firstItem="E7x-f7-eF3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oY6-eO-AUa"/>
                 <constraint firstAttribute="trailing" secondItem="E7x-f7-eF3" secondAttribute="trailing" id="vZ7-zd-4eI"/>
