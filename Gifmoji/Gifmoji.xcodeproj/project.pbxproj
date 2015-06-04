@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E430B7511B0D38C700F48E98 /* icedcoffee-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B7481B0D38C700F48E98 /* icedcoffee-80x80.gif */; };
-		E430B7521B0D38C700F48E98 /* cheeseballs-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B7491B0D38C700F48E98 /* cheeseballs-80x80.gif */; };
-		E430B7531B0D38C700F48E98 /* sunglasses-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B74A1B0D38C700F48E98 /* sunglasses-80x80.gif */; };
-		E430B7541B0D38C700F48E98 /* gunvald-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B74B1B0D38C700F48E98 /* gunvald-80x80.gif */; };
-		E430B7551B0D38C700F48E98 /* cheezit-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B74C1B0D38C700F48E98 /* cheezit-80x80.gif */; };
-		E430B7561B0D38C700F48E98 /* nutella-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B74D1B0D38C700F48E98 /* nutella-80x80.gif */; };
-		E430B7571B0D38C700F48E98 /* popcorn-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B74E1B0D38C700F48E98 /* popcorn-80x80.gif */; };
-		E430B7581B0D38C700F48E98 /* cortado-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B74F1B0D38C700F48E98 /* cortado-80x80.gif */; };
-		E430B7591B0D38C700F48E98 /* butterfly-80x80.gif in Resources */ = {isa = PBXBuildFile; fileRef = E430B7501B0D38C700F48E98 /* butterfly-80x80.gif */; };
 		E435300A1B063A7E00A2BA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43530091B063A7E00A2BA91 /* AppDelegate.swift */; };
 		E435300C1B063A7E00A2BA91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435300B1B063A7E00A2BA91 /* ViewController.swift */; };
 		E435300F1B063A7E00A2BA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E435300D1B063A7E00A2BA91 /* Main.storyboard */; };
@@ -25,6 +16,27 @@
 		E43530591B06412B00A2BA91 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43530581B06412B00A2BA91 /* KeyboardViewController.swift */; };
 		E435305C1B06412B00A2BA91 /* GifmojiKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E43530541B06412B00A2BA91 /* GifmojiKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E43530611B06415C00A2BA91 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43530601B06415C00A2BA91 /* KeyboardView.xib */; };
+		E4AD98AA1B13692C006AE36D /* bacon-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98951B13692C006AE36D /* bacon-food.gif */; };
+		E4AD98AB1B13692C006AE36D /* booty-people.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98961B13692C006AE36D /* booty-people.gif */; };
+		E4AD98AC1B13692C006AE36D /* butterfly-animals.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98971B13692C006AE36D /* butterfly-animals.gif */; };
+		E4AD98AD1B13692C006AE36D /* cheeseballs-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98981B13692C006AE36D /* cheeseballs-food.gif */; };
+		E4AD98AE1B13692C006AE36D /* cheezit-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98991B13692C006AE36D /* cheezit-food.gif */; };
+		E4AD98AF1B13692C006AE36D /* cortado-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD989A1B13692C006AE36D /* cortado-food.gif */; };
+		E4AD98B01B13692C006AE36D /* flipflops-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD989B1B13692C006AE36D /* flipflops-utility.gif */; };
+		E4AD98B11B13692C006AE36D /* frenchpress-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD989C1B13692C006AE36D /* frenchpress-food.gif */; };
+		E4AD98B21B13692C006AE36D /* froyo-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD989D1B13692C006AE36D /* froyo-food.gif */; };
+		E4AD98B31B13692C006AE36D /* goldfish-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD989E1B13692C006AE36D /* goldfish-food.gif */; };
+		E4AD98B41B13692C006AE36D /* gunvald-animals.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD989F1B13692C006AE36D /* gunvald-animals.gif */; };
+		E4AD98B51B13692C006AE36D /* icedcoffee-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A01B13692C006AE36D /* icedcoffee-food.gif */; };
+		E4AD98B61B13692C006AE36D /* iphone-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A11B13692C006AE36D /* iphone-utility.gif */; };
+		E4AD98B71B13692C006AE36D /* macaroons-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A21B13692C006AE36D /* macaroons-food.gif */; };
+		E4AD98B81B13692C006AE36D /* makeitrain-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A31B13692C006AE36D /* makeitrain-utility.gif */; };
+		E4AD98B91B13692C006AE36D /* nutella-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A41B13692C006AE36D /* nutella-food.gif */; };
+		E4AD98BA1B13692C006AE36D /* popcorn-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A51B13692C006AE36D /* popcorn-food.gif */; };
+		E4AD98BB1B13692C006AE36D /* scissors-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A61B13692C006AE36D /* scissors-utility.gif */; };
+		E4AD98BC1B13692C006AE36D /* solocup-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A71B13692C006AE36D /* solocup-utility.gif */; };
+		E4AD98BD1B13692C006AE36D /* sunglasses-utility.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A81B13692C006AE36D /* sunglasses-utility.gif */; };
+		E4AD98BE1B13692C006AE36D /* taco-food.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4AD98A91B13692C006AE36D /* taco-food.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,15 +71,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E430B7481B0D38C700F48E98 /* icedcoffee-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "icedcoffee-80x80.gif"; sourceTree = "<group>"; };
-		E430B7491B0D38C700F48E98 /* cheeseballs-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cheeseballs-80x80.gif"; sourceTree = "<group>"; };
-		E430B74A1B0D38C700F48E98 /* sunglasses-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sunglasses-80x80.gif"; sourceTree = "<group>"; };
-		E430B74B1B0D38C700F48E98 /* gunvald-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gunvald-80x80.gif"; sourceTree = "<group>"; };
-		E430B74C1B0D38C700F48E98 /* cheezit-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cheezit-80x80.gif"; sourceTree = "<group>"; };
-		E430B74D1B0D38C700F48E98 /* nutella-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "nutella-80x80.gif"; sourceTree = "<group>"; };
-		E430B74E1B0D38C700F48E98 /* popcorn-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "popcorn-80x80.gif"; sourceTree = "<group>"; };
-		E430B74F1B0D38C700F48E98 /* cortado-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cortado-80x80.gif"; sourceTree = "<group>"; };
-		E430B7501B0D38C700F48E98 /* butterfly-80x80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "butterfly-80x80.gif"; sourceTree = "<group>"; };
 		E43530041B063A7E00A2BA91 /* Gifmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gifmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43530081B063A7E00A2BA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E43530091B063A7E00A2BA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +87,27 @@
 		E43530601B06415C00A2BA91 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
 		E45A31A11B0A565200A4B546 /* GifmojiKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GifmojiKeyboard.entitlements; sourceTree = "<group>"; };
 		E45A31A21B0A565B00A4B546 /* Gifmoji.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Gifmoji.entitlements; sourceTree = "<group>"; };
+		E4AD98951B13692C006AE36D /* bacon-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "bacon-food.gif"; sourceTree = "<group>"; };
+		E4AD98961B13692C006AE36D /* booty-people.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "booty-people.gif"; sourceTree = "<group>"; };
+		E4AD98971B13692C006AE36D /* butterfly-animals.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "butterfly-animals.gif"; sourceTree = "<group>"; };
+		E4AD98981B13692C006AE36D /* cheeseballs-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cheeseballs-food.gif"; sourceTree = "<group>"; };
+		E4AD98991B13692C006AE36D /* cheezit-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cheezit-food.gif"; sourceTree = "<group>"; };
+		E4AD989A1B13692C006AE36D /* cortado-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cortado-food.gif"; sourceTree = "<group>"; };
+		E4AD989B1B13692C006AE36D /* flipflops-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "flipflops-utility.gif"; sourceTree = "<group>"; };
+		E4AD989C1B13692C006AE36D /* frenchpress-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "frenchpress-food.gif"; sourceTree = "<group>"; };
+		E4AD989D1B13692C006AE36D /* froyo-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "froyo-food.gif"; sourceTree = "<group>"; };
+		E4AD989E1B13692C006AE36D /* goldfish-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "goldfish-food.gif"; sourceTree = "<group>"; };
+		E4AD989F1B13692C006AE36D /* gunvald-animals.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gunvald-animals.gif"; sourceTree = "<group>"; };
+		E4AD98A01B13692C006AE36D /* icedcoffee-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "icedcoffee-food.gif"; sourceTree = "<group>"; };
+		E4AD98A11B13692C006AE36D /* iphone-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "iphone-utility.gif"; sourceTree = "<group>"; };
+		E4AD98A21B13692C006AE36D /* macaroons-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "macaroons-food.gif"; sourceTree = "<group>"; };
+		E4AD98A31B13692C006AE36D /* makeitrain-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "makeitrain-utility.gif"; sourceTree = "<group>"; };
+		E4AD98A41B13692C006AE36D /* nutella-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "nutella-food.gif"; sourceTree = "<group>"; };
+		E4AD98A51B13692C006AE36D /* popcorn-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "popcorn-food.gif"; sourceTree = "<group>"; };
+		E4AD98A61B13692C006AE36D /* scissors-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scissors-utility.gif"; sourceTree = "<group>"; };
+		E4AD98A71B13692C006AE36D /* solocup-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "solocup-utility.gif"; sourceTree = "<group>"; };
+		E4AD98A81B13692C006AE36D /* sunglasses-utility.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sunglasses-utility.gif"; sourceTree = "<group>"; };
+		E4AD98A91B13692C006AE36D /* taco-food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "taco-food.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,15 +217,27 @@
 		E43530621B06438B00A2BA91 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E430B7481B0D38C700F48E98 /* icedcoffee-80x80.gif */,
-				E430B7491B0D38C700F48E98 /* cheeseballs-80x80.gif */,
-				E430B74A1B0D38C700F48E98 /* sunglasses-80x80.gif */,
-				E430B74B1B0D38C700F48E98 /* gunvald-80x80.gif */,
-				E430B74C1B0D38C700F48E98 /* cheezit-80x80.gif */,
-				E430B74D1B0D38C700F48E98 /* nutella-80x80.gif */,
-				E430B74E1B0D38C700F48E98 /* popcorn-80x80.gif */,
-				E430B74F1B0D38C700F48E98 /* cortado-80x80.gif */,
-				E430B7501B0D38C700F48E98 /* butterfly-80x80.gif */,
+				E4AD98951B13692C006AE36D /* bacon-food.gif */,
+				E4AD98961B13692C006AE36D /* booty-people.gif */,
+				E4AD98971B13692C006AE36D /* butterfly-animals.gif */,
+				E4AD98981B13692C006AE36D /* cheeseballs-food.gif */,
+				E4AD98991B13692C006AE36D /* cheezit-food.gif */,
+				E4AD989A1B13692C006AE36D /* cortado-food.gif */,
+				E4AD989B1B13692C006AE36D /* flipflops-utility.gif */,
+				E4AD989C1B13692C006AE36D /* frenchpress-food.gif */,
+				E4AD989D1B13692C006AE36D /* froyo-food.gif */,
+				E4AD98A91B13692C006AE36D /* taco-food.gif */,
+				E4AD989E1B13692C006AE36D /* goldfish-food.gif */,
+				E4AD989F1B13692C006AE36D /* gunvald-animals.gif */,
+				E4AD98A01B13692C006AE36D /* icedcoffee-food.gif */,
+				E4AD98A11B13692C006AE36D /* iphone-utility.gif */,
+				E4AD98A21B13692C006AE36D /* macaroons-food.gif */,
+				E4AD98A31B13692C006AE36D /* makeitrain-utility.gif */,
+				E4AD98A41B13692C006AE36D /* nutella-food.gif */,
+				E4AD98A51B13692C006AE36D /* popcorn-food.gif */,
+				E4AD98A61B13692C006AE36D /* scissors-utility.gif */,
+				E4AD98A71B13692C006AE36D /* solocup-utility.gif */,
+				E4AD98A81B13692C006AE36D /* sunglasses-utility.gif */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -338,16 +374,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E430B7521B0D38C700F48E98 /* cheeseballs-80x80.gif in Resources */,
-				E430B7591B0D38C700F48E98 /* butterfly-80x80.gif in Resources */,
-				E430B7541B0D38C700F48E98 /* gunvald-80x80.gif in Resources */,
-				E430B7551B0D38C700F48E98 /* cheezit-80x80.gif in Resources */,
-				E430B7571B0D38C700F48E98 /* popcorn-80x80.gif in Resources */,
-				E430B7531B0D38C700F48E98 /* sunglasses-80x80.gif in Resources */,
-				E430B7511B0D38C700F48E98 /* icedcoffee-80x80.gif in Resources */,
+				E4AD98B61B13692C006AE36D /* iphone-utility.gif in Resources */,
+				E4AD98AB1B13692C006AE36D /* booty-people.gif in Resources */,
+				E4AD98B81B13692C006AE36D /* makeitrain-utility.gif in Resources */,
+				E4AD98BD1B13692C006AE36D /* sunglasses-utility.gif in Resources */,
+				E4AD98BC1B13692C006AE36D /* solocup-utility.gif in Resources */,
+				E4AD98B91B13692C006AE36D /* nutella-food.gif in Resources */,
+				E4AD98B51B13692C006AE36D /* icedcoffee-food.gif in Resources */,
+				E4AD98AC1B13692C006AE36D /* butterfly-animals.gif in Resources */,
+				E4AD98AE1B13692C006AE36D /* cheezit-food.gif in Resources */,
+				E4AD98B41B13692C006AE36D /* gunvald-animals.gif in Resources */,
+				E4AD98B71B13692C006AE36D /* macaroons-food.gif in Resources */,
+				E4AD98B21B13692C006AE36D /* froyo-food.gif in Resources */,
+				E4AD98BE1B13692C006AE36D /* taco-food.gif in Resources */,
+				E4AD98BB1B13692C006AE36D /* scissors-utility.gif in Resources */,
+				E4AD98B31B13692C006AE36D /* goldfish-food.gif in Resources */,
+				E4AD98B01B13692C006AE36D /* flipflops-utility.gif in Resources */,
+				E4AD98B11B13692C006AE36D /* frenchpress-food.gif in Resources */,
+				E4AD98AF1B13692C006AE36D /* cortado-food.gif in Resources */,
 				E43530611B06415C00A2BA91 /* KeyboardView.xib in Resources */,
-				E430B7561B0D38C700F48E98 /* nutella-80x80.gif in Resources */,
-				E430B7581B0D38C700F48E98 /* cortado-80x80.gif in Resources */,
+				E4AD98AD1B13692C006AE36D /* cheeseballs-food.gif in Resources */,
+				E4AD98AA1B13692C006AE36D /* bacon-food.gif in Resources */,
+				E4AD98BA1B13692C006AE36D /* popcorn-food.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
