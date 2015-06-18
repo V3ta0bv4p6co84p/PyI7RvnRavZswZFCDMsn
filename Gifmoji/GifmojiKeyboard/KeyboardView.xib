@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="GifmojiKeyboard" customModuleProvider="target">
@@ -17,18 +17,17 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <scrollView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7x-f7-eF3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="178"/>
+                </scrollView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJ6-T3-yGi">
-                    <rect key="frame" x="0.0" y="164" width="320" height="56"/>
+                    <rect key="frame" x="0.0" y="157" width="320" height="63"/>
                     <subviews>
-                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zh2-kv-F6x">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="2"/>
-                            <color key="progressTintColor" red="0.16078431904315948" green="0.94117653369903564" blue="0.21568629145622253" alpha="1" colorSpace="deviceRGB"/>
-                        </progressView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5b-Q1-l4u">
-                            <rect key="frame" x="8" y="8" width="40" height="40"/>
+                            <rect key="frame" x="0.0" y="28" width="41" height="35"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="DUr-0Y-u0e"/>
-                                <constraint firstAttribute="width" constant="40" id="OdW-fx-Duw"/>
+                                <constraint firstAttribute="height" constant="35" id="DUr-0Y-u0e"/>
+                                <constraint firstAttribute="width" constant="41" id="OdW-fx-Duw"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="35"/>
                             <state key="normal" title="🌐">
@@ -36,7 +35,7 @@
                             </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tof-Cf-OWJ">
-                            <rect key="frame" x="259" y="8" width="53" height="40"/>
+                            <rect key="frame" x="253" y="26" width="53" height="40"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="RM4-A2-len"/>
                                 <constraint firstAttribute="width" constant="40" id="YLh-HY-XiX"/>
@@ -55,35 +54,39 @@
                             </variation>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F42-HW-BHq">
-                            <rect key="frame" x="69" y="13" width="30" height="30"/>
+                            <rect key="frame" x="69" y="31" width="30" height="30"/>
                             <state key="normal" title="❤️">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHA-iO-KEC">
-                            <rect key="frame" x="107" y="13" width="30" height="30"/>
+                            <rect key="frame" x="101" y="31" width="30" height="30"/>
                             <state key="normal" title="❤️">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQh-sX-KYc">
-                            <rect key="frame" x="145" y="13" width="30" height="30"/>
+                            <rect key="frame" x="139" y="31" width="30" height="30"/>
                             <state key="normal" title="❤️">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yi9-xV-yOU">
-                            <rect key="frame" x="183" y="13" width="30" height="30"/>
+                            <rect key="frame" x="177" y="31" width="30" height="30"/>
                             <state key="normal" title="❤️">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0o7-lw-Kd7">
-                            <rect key="frame" x="221" y="13" width="30" height="30"/>
+                            <rect key="frame" x="215" y="31" width="30" height="30"/>
                             <state key="normal" title="❤️">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
+                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zh2-kv-F6x">
+                            <rect key="frame" x="0.0" y="21" width="320" height="2"/>
+                            <color key="progressTintColor" red="0.16078431904315948" green="0.94117653369903564" blue="0.21568629145622253" alpha="1" colorSpace="deviceRGB"/>
+                        </progressView>
                     </subviews>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <accessibility key="accessibilityConfiguration" label="bottomView">
@@ -93,26 +96,23 @@
                         <constraint firstItem="UQh-sX-KYc" firstAttribute="leading" secondItem="qHA-iO-KEC" secondAttribute="trailing" constant="8" id="0WU-lK-UK3"/>
                         <constraint firstAttribute="trailing" secondItem="zh2-kv-F6x" secondAttribute="trailing" id="9E9-oT-OUs"/>
                         <constraint firstItem="UQh-sX-KYc" firstAttribute="centerY" secondItem="qHA-iO-KEC" secondAttribute="centerY" id="9yA-3E-yRC"/>
-                        <constraint firstAttribute="trailing" secondItem="Tof-Cf-OWJ" secondAttribute="trailing" constant="8" id="ClA-Sj-YIo"/>
-                        <constraint firstAttribute="centerY" secondItem="Tof-Cf-OWJ" secondAttribute="centerY" id="GAK-Kc-Wby"/>
-                        <constraint firstItem="UQh-sX-KYc" firstAttribute="top" secondItem="sJ6-T3-yGi" secondAttribute="top" constant="13" id="KIb-hS-IEh"/>
+                        <constraint firstAttribute="trailing" secondItem="Tof-Cf-OWJ" secondAttribute="trailing" constant="14" id="ClA-Sj-YIo"/>
+                        <constraint firstAttribute="centerY" secondItem="Tof-Cf-OWJ" secondAttribute="centerY" constant="-14.5" id="GAK-Kc-Wby"/>
+                        <constraint firstItem="UQh-sX-KYc" firstAttribute="top" secondItem="sJ6-T3-yGi" secondAttribute="top" constant="31" id="KIb-hS-IEh"/>
                         <constraint firstItem="F42-HW-BHq" firstAttribute="centerY" secondItem="qHA-iO-KEC" secondAttribute="centerY" id="UGA-pr-E7d"/>
-                        <constraint firstItem="zh2-kv-F6x" firstAttribute="top" secondItem="sJ6-T3-yGi" secondAttribute="top" id="W5c-VX-gHO"/>
+                        <constraint firstItem="zh2-kv-F6x" firstAttribute="top" secondItem="sJ6-T3-yGi" secondAttribute="top" constant="21" id="W5c-VX-gHO"/>
                         <constraint firstItem="yi9-xV-yOU" firstAttribute="leading" secondItem="UQh-sX-KYc" secondAttribute="trailing" constant="8" id="Yi5-oo-G77"/>
                         <constraint firstItem="yi9-xV-yOU" firstAttribute="centerY" secondItem="UQh-sX-KYc" secondAttribute="centerY" id="bsH-dF-IpA"/>
-                        <constraint firstAttribute="centerY" secondItem="J5b-Q1-l4u" secondAttribute="centerY" id="eEV-al-VNp"/>
+                        <constraint firstAttribute="centerY" secondItem="J5b-Q1-l4u" secondAttribute="centerY" constant="-14" id="eEV-al-VNp"/>
                         <constraint firstItem="zh2-kv-F6x" firstAttribute="leading" secondItem="sJ6-T3-yGi" secondAttribute="leading" id="mM4-Mx-Or7"/>
-                        <constraint firstAttribute="centerX" secondItem="UQh-sX-KYc" secondAttribute="centerX" id="maJ-Ts-p60"/>
-                        <constraint firstItem="qHA-iO-KEC" firstAttribute="leading" secondItem="F42-HW-BHq" secondAttribute="trailing" constant="8" id="pGs-km-ZVk"/>
+                        <constraint firstAttribute="centerX" secondItem="UQh-sX-KYc" secondAttribute="centerX" constant="6" id="maJ-Ts-p60"/>
+                        <constraint firstItem="qHA-iO-KEC" firstAttribute="leading" secondItem="F42-HW-BHq" secondAttribute="trailing" constant="2" id="pGs-km-ZVk"/>
                         <constraint firstItem="yi9-xV-yOU" firstAttribute="centerY" secondItem="0o7-lw-Kd7" secondAttribute="centerY" id="suh-Hg-93m"/>
-                        <constraint firstAttribute="height" constant="56" id="v22-rj-cjf"/>
+                        <constraint firstAttribute="height" constant="63" id="v22-rj-cjf"/>
                         <constraint firstItem="0o7-lw-Kd7" firstAttribute="leading" secondItem="yi9-xV-yOU" secondAttribute="trailing" constant="8" id="wRN-57-1t2"/>
-                        <constraint firstItem="J5b-Q1-l4u" firstAttribute="leading" secondItem="sJ6-T3-yGi" secondAttribute="leading" constant="8" id="y0R-Q9-TIC"/>
+                        <constraint firstItem="J5b-Q1-l4u" firstAttribute="leading" secondItem="sJ6-T3-yGi" secondAttribute="leading" id="y0R-Q9-TIC"/>
                     </constraints>
                 </view>
-                <scrollView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7x-f7-eF3">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
-                </scrollView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <accessibility key="accessibilityConfiguration" label="mainView">
@@ -120,7 +120,7 @@
             </accessibility>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="sJ6-T3-yGi" secondAttribute="bottom" id="4WQ-o7-Mjx"/>
-                <constraint firstItem="sJ6-T3-yGi" firstAttribute="top" secondItem="E7x-f7-eF3" secondAttribute="bottom" constant="-1" id="LAf-Bm-JtL"/>
+                <constraint firstItem="sJ6-T3-yGi" firstAttribute="top" secondItem="E7x-f7-eF3" secondAttribute="bottom" constant="-21" id="LAf-Bm-JtL"/>
                 <constraint firstItem="E7x-f7-eF3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Sqt-0b-rvH"/>
                 <constraint firstItem="E7x-f7-eF3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xvh-wl-m7m"/>
                 <constraint firstAttribute="trailing" secondItem="sJ6-T3-yGi" secondAttribute="trailing" id="f8y-7G-KiR"/>
